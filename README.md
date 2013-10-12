@@ -41,6 +41,27 @@ other.js
 
 The file paths must be relative paths to the `ClassPathMigrationLoader` context path. The default context path is `/`, but you can configure this in the constructor of the migration laoder.
 
+## Maven Dependency
+
+### Repository
+```
+<repository>
+    <id>stil4m-releases</id>
+    <name>stil4m-releases</name>
+    <url>https://github.com/stil4m/maven-repository/raw/master/releases/</url>
+</repository>
+```
+
+### Dependency
+```
+<dependency>
+    <groupId>nl.stil4m</groupId>
+    <artifactId>mo-mi</artifactId>
+    <version>0.1.0</version>
+</dependency>
+```
+
+
 ## Issues and question
 
 Please create issues if you require new features of find bugs. These will be resolved as fast as possilbe or create your own pull request.
