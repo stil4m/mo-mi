@@ -6,7 +6,7 @@
     <version>1.0.1</version>
     <groupId>nl.stil4m</groupId>
     <artifactId>momi</artifactId>
-    <name>MoMi</name>
+    <name>mo-mi</name>
     <description>Mongo Migrations for Java</description>
 
     <properties>
