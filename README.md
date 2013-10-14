@@ -5,7 +5,7 @@ A simple library to perform migration scripts on your MongoDB database.
 
 ## Why do I need this?
 
-In MongoDB you have unstructured data and no schema. So why do you need migrations? Your data is unstructed which allows you to easily change the format in which you store it in your database. Somethimes you want to update the existing data in your database to comply to a new structure. Herefor you would use mo-mi. With these migrations you can easily update the data in your production environment.
+In MongoDB you have unstructured data and no schema. So why do you need migrations? Your data is unstructed which allows you to easily change the format in which you store it in your database. Sometimes you want to update the existing data in your database to comply to a new structure. Herefor you would use mo-mi. With these migrations you can easily update the data in your production environment.
 
 ## How does it work?
 You just write Javascript file containing the changes you want to perform in a single changeset. The content of these javascript files are sent to the MongoDB Java driver with the `doEval()` method. This way you could write the same commando's you would write in the normal MongoDB shell *.
